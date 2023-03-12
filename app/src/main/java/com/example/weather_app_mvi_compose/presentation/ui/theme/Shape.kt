@@ -1,4 +1,4 @@
-package com.example.weather_app_mvi_compose.ui.theme
+package com.example.weather_app_mvi_compose.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
