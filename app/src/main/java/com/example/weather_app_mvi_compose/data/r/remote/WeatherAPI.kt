@@ -1,4 +1,4 @@
-package com.example.weather_app_mvi_compose.data.remote
+package com.example.weather_app_mvi_compose.data.r.remote
 
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -8,5 +8,5 @@ interface WeatherAPI {
     suspend fun getWeatherData(
         @Query("latitude") lat:Double,
         @Query("longitude") long:Double
-    ):WeatherDto
+    ): WeatherDto
 }
